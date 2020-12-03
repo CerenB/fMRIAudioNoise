@@ -4,6 +4,7 @@ filePath = '~/Desktop/fmri_acq3_macMic.mp3';
 [s,fs] = audioread(filePath);
 
 %documentation needed!
+% define what this function does exactly
 
 N = length(s);
 hN = floor(N/2)+1;
